@@ -25,7 +25,7 @@ Run the backend.py to start creating an api for frontend and backend link
 python backend.py
 ```
 ### Results
-![](GithubInstance\instance.png)
+![GithubInstance/instance.png](GithubInstance/instance.png)
 ## Appendix
 ### Prepare Data
 1. **Download Fruit dataset**
