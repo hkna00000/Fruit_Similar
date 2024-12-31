@@ -25,22 +25,14 @@ Run the backend.py to start creating an api for frontend and backend link
 python backend.py
 ```
 ### Results
-![](GithubInstance/000.png)
+![](GithubInstance\instance.png)
 ## Appendix
 ### Prepare Data
-1. **Download KITTI dataset**
+1. **Download Fruit dataset**
 ```shell
 # get images
-wget https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip
-unzip data_object_image_2.zip
-
-# get annotations
-wget https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_label_2.zip
-unzip data_object_label_2.zip
-```
-
+https://www.kaggle.com/datasets/utkarshsaxenadn/fruits-classification
 Organize the data as follows:
-
 ```shell
 FruitSimilar
 |-- Fruit_Data
