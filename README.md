@@ -1,12 +1,10 @@
 ## Fruit Similar Finder
- This is the model to predict the distance from your camera to the object and which type of object in side bounding box that user has chosen
 ## Purpose
 
 To find similar images of 5 fruits: Strawberry, Banana, Mango, Apple and Grape
 
 ## Overview
 Build a HSNW structure to store image features using MobileV2Net backbone to extract then using the storage structure to find most similar image with user's input
-
 Input: a image about one of five fruit: Strawberry, Banana, Mango, Apple and Grape
 Output: 5 image similar to the input image
 
