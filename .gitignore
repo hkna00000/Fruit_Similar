@@ -1,0 +1,5 @@
+# KITTI related
+Fruits_Data/
+.conda/
+/myenv/
+uploads/

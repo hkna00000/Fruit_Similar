@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Similar Fruits</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="left-section">
+            <div class="header">
+                <h1>Fruit Similarity Finder</h1>
+            </div>
+            
+            <div class="upload-section">
+                <h2 class="section-title">Upload Image</h2>
+                <form id="uploadForm">
+                    <div class="file-input-wrapper">
+                        <label for="file" class="custom-file-upload">
+                            Choose Image
+                        </label>
+                        <input type="file" id="file" accept="image/*" required>
+                    </div>
+                    <button type="submit" class="upload-btn">Upload</button>
+                </form>
+                <div class="image-frame">
+                    <img id="chosenImage" src="" alt="Uploaded Image" style="display: none;">
+                </div>
+            </div>
+        </div>
+        
+        <div class="results-section">
+            <h2 class="section-title">Similar Images</h2>
+            <div class="results-grid" id="results"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+  </body>
+</html>
