@@ -1,3 +1,17 @@
+<!-- Banner -->
+<p align="center">
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: none;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
+</p>
+
+
+## THÀNH VIÊN NHÓM
+| STT    | MSSV          | Họ và Tên              |Chức Vụ    | Github                                                  | Email                   |
+| ------ |:-------------:| ----------------------:|----------:|--------------------------------------------------------:|-------------------------:
+| 1      | 21520560      | Hoàng Kim Ngọc Anh     |Nhóm trưởng|[hkna00000](https://github.com/hkna00000)                |21520560@gm.uit.edu.vn   |
+| 2      | 2152787       | Trần Khánh Duy         |Thành viên |                                                         |21520787@gm.uit.edu.vn   |
+| 3      | 22520348      | Cáp Thị Mỹ Duyên       |Thành viên |                                                         |22520348@gm.uit.edu.vn   |
 ## Fruit Similar Finder
 ## Purpose
 
